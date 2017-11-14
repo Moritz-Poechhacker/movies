@@ -1,0 +1,22 @@
+{
+    "name": "moritz/moviedatabase",
+    "description": "Eine Filmdatenbank fuer Kung-Fu Filme, die die wichtigsten Infos ausgeben kann",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Moritz Poechhacker",
+            "email": "m.rally.mp@gmail.com"
+        }
+    ],
+    "require": {
+            "endroid/qrcode":"dev-master",
+            "htl3r/kung-fu-movies":"dev-master"
+    },
+    "repositories":{
+        "kung-fu-movies":{
+            "type":"vcs",
+            "url":"https://github.com/Weissheiten/htl3r.kungfumovies.git"
+        }
+    }
+}
